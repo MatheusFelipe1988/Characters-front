@@ -9,7 +9,6 @@
   padding: 16px;
   margin: 16px;
   border-radius: 16px;
-  box-shadow: 4px 4px white;
   text-align: center;
   transition: 0.15s all;
   cursor: pointer;
@@ -23,7 +22,7 @@
 
 .card > h2 {
   font-size: 32px;
-  border-left: 8px solid white;
+  border-left: 8px solid #a9d3d9;
 }
 .card > img {
   border-radius: 16px;

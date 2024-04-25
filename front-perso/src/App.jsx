@@ -13,21 +13,21 @@ function App() {
     name: "Fernando Alonso",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCeaZ_7dkgT2s5dwGh8ZYsJh24Nt3wOxRMRg&s",
-    tags: ["Status: Vivo"],
+    tags: ["Status: Vivo", "Profissão: Piloto", "Categoria: F1"],
   };
 
   const item3 = {
     name: "Carlos Sainz Jr",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEAecYERovDCcKTVUvHGkqs1d55LPx1m-JA&s",
-    tags: ["Status: Vivo"],
+    tags: ["Status: Vivo", "Profissão: Piloto", "Categoria: F1"],
   };
 
   const items = [item1, item2, item3];
 
   return (
     <>
-      <div className="card">
+      <div className="cards">
         {items.map(function (elemento) {
           return <Card item={elemento} />;
         })}
